@@ -16,10 +16,20 @@
 </head>
 
 <body>
-  <center style="margin-top:5%">
+  <nav>
+    <div class="nav-wrapper">
+      <!--<a href="#" class="brand-logo right">Logo</a>-->
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <center>
     <h4>Contact Us</h3>
     </center>
-    <div style="margin-top:10%; width:80%" class="row">
+    <div style="margin-top:5%; width:80%" class="row">
       <form action="mailto:giles@munn.co.uk" method="post" enctype="text/plain" class="col s12">
         <div class="row">
           <div class="input-field col s6">
@@ -47,9 +57,9 @@
             <label for="message">Message</label>
           </div>
         </div>
-        <button style="margin-top:20%" id="send_email" type="submit" class="waves-effect waves-light btn blue lighten-1">Send</button>
+        <button style="margin-top:25%" id="send_email" type="submit" class="waves-effect waves-light btn blue lighten-1">Send</button>
       </form>
-      <center style="margin-top:17%; color:grey">
+      <center style=" color:grey">
         <p>Having trouble? You can also manually email <a href="mailto:info@project21uk.com">info@project21uk.com</a></p>
       </center>
     </div>
