@@ -1,52 +1,68 @@
 <head>
 	<title>Project21</title>
 	<link rel="icon" href="logo.jpg" type="image/x-icon"/>
+
+  <style>
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
+</style>
+
+
 </head>
 
 <body>
 	<div class='container'>
 		<div class='row'>
-			<div style="margin-left:15px" class='col s8'>
+			<div class='col s6'>
 				<h3>Project21</h3>
 				<p>Welcome to Project21 UK! We are a charity dedicated to
-			           helping children and adults with Downs Syndrome across East Anglia.
-        			   Based in Suffolk, we provide fun activities, days out, music sessions, trips to the theatre, and much more!</p>
-				<br>
-				<button id="about_page_button" type="submit" class="waves-effect waves-light btn blue lighten-1">Contact Us</button>
-			</div>
-			
-			<div class='col s4'>
-				<img height="228" width="405" src="test_photo.jpeg"/>
-			</div>
-		</div>
-	</div>
+          helping children and adults with Downs Syndrome across East Anglia.
+        Based in Suffolk, we provide fun activities, days out, music sessions, trips to the theatre, and much more!</p>
+        <br>
+        <form action="contact.html">
+          <button id="about_page_button" type="submit" class="waves-effect waves-light btn blue lighten-1">Contact Us</button>
+        </form>
+      </div>
 
-	<br><br><br><br><br><br><br>
+      <div style="margin-top:10%" class='col s6'>
+        <img height="228" width="405" src="test_photo.jpeg"/>
+      </div>
+    </div>
+  </div>
 </body>
 
 <!-- Footer -->
-<footer class="page-footer">
-          <div class="container">
-            <div class="row">
-              <div class="col l6 s12">
-                <h5 class="white-text">About Us</h5>
-                <p class="grey-text text-lighten-4">Project21 is a a charity dedicated to helping children and adults with Downs Syndrome across East Anglia.</p>
-              </div>
-              <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Social Media</h5>
-                <ul>
-                  <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/project21uk/">Facebook</a></li>
-                  <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/project21uk/">Instagram</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="footer-copyright">
-            <div class="container">
-            © 2018 Giles Munn
-            </div>
-          </div> 
-</footer>
+<div class="footer">
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">About Us</h5>
+          <p class="grey-text text-lighten-4">Project21 is a a charity dedicated to helping children and adults with Downs Syndrome across East Anglia.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Social Media</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/project21uk/">Facebook</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/project21uk/">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2018 Giles Munn
+      </div>
+    </div> 
+  </footer>
+</div>
 
 <!--Scripts-->
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

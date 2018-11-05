@@ -1,0 +1,90 @@
+<head>
+  <title>Project21 - About Us</title>
+  <link rel="icon" href="logo.jpg" type="image/x-icon"/>
+
+  <style>
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /*text-align: center;*/
+  }
+</style>
+
+
+</head>
+
+<body>
+  <center style="margin-top:5%">
+    <h4>Contact Us</h3>
+    </center>
+    <div style="margin-top:10%; width:80%" class="row">
+      <form action="mailto:giles@munn.co.uk" method="post" enctype="text/plain" class="col s12">
+        <div class="row">
+          <div class="input-field col s6">
+            <input id="first_name" type="text" class="validate">
+            <label for="first_name">First Name</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="last_name" type="text" class="validate">
+            <label for="last_name">Last Name</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s6">
+            <input id="subject" type="text" class="validate">
+            <label for="subject">Subject</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="email" type="email" class="validate">
+            <label for="email">Email</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <textarea id="message" class="materialize-textarea"></textarea>
+            <label for="message">Message</label>
+          </div>
+        </div>
+        <button style="margin-top:20%" id="send_email" type="submit" class="waves-effect waves-light btn blue lighten-1">Send</button>
+      </form>
+      <center style="margin-top:17%; color:grey">
+        <p>Having trouble? You can also manually email <a href="mailto:info@project21uk.com">info@project21uk.com</a></p>
+      </center>
+    </div>
+  </body>
+
+  <!-- Footer -->
+  <div class="footer">
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">About Us</h5>
+            <p class="grey-text text-lighten-4">Project21 is a a charity dedicated to helping children and adults with Downs Syndrome across East Anglia.</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Social Media</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/project21uk/">Facebook</a></li>
+              <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/project21uk/">Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          © 2018 Giles Munn
+        </div>
+      </div> 
+    </footer>
+  </div>
+
+  <!--Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  
